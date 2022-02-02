@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@800&display=swap");
+
+:root {
+  --primary-color: #96bb7c;
+  --secondary-color: #ddf4ff;
+  --light-background-color: #ffffff;
+  --text-color: #252b42;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  color: var(--text-color);
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* navbar brandname */
+.navbar .brandname {
+  font-weight: bold;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+/* navbar links */
+.navbar .navbar-items a {
+  float: left;
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* navbar links hover */
+.navbar .navbar-items a:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  color: black;
+}
+
+/* navbar links active */
+.navbar .navbar-items a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* navbar buttons */
+.navbar .navbar-buttons a {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* navbar right button */
+.navbar .navbar-buttons .navbar-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .navbar-buttons .navbar-button i {
+  padding: 0px 8px;
+}

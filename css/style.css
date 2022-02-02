@@ -14,6 +14,11 @@ body {
   padding: 0;
 }
 
+/* header */
+header {
+  background-color: var(--secondary-color);
+}
+
 /* navbar */
 .navbar {
   display: flex;
@@ -50,7 +55,7 @@ body {
 }
 
 /* navbar links active */
-.navbar .navbar-items a.active {
+.navbar .navbar-items a:active {
   background-color: #04aa6d;
   color: white;
 }
@@ -76,4 +81,94 @@ body {
 
 .navbar .navbar-buttons .navbar-button i {
   padding: 0px 8px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Container */
+
+/* container */
+.container {
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* container up title */
+.container .container-up-title {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 16px;
+  text-align: left;
+}
+
+/* container main title */
+.container .container-main-title {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 34px;
+  text-align: left;
+}
+
+/* container sub title */
+.container .container-sub-title {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: left;
+}
+
+/* container img */
+.container .container-img img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+  width: 700px;
+  height: auto;
+}
+
+/* container buttons */
+.container .container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+  padding-top: 15px;
+}
+
+.container .container-buttons .full {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 22px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container .container-buttons .full:hover {
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px 38px;
+  transition: 0.1s;
+}
+
+.container .container-buttons .empty {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px 38px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.container .container-buttons .empty:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transition: 0.1s;
 }

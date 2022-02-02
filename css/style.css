@@ -47,19 +47,6 @@ header {
   font-size: 17px;
 }
 
-/* navbar links hover */
-.navbar .navbar-items a:hover {
-  background-color: rgb(241, 241, 241);
-  border-radius: 5px;
-  color: black;
-}
-
-/* navbar links active */
-.navbar .navbar-items a:active {
-  background-color: #04aa6d;
-  color: white;
-}
-
 /* navbar buttons */
 .navbar .navbar-buttons a {
   color: var(--primary-color);
@@ -137,6 +124,7 @@ header {
   padding-top: 15px;
 }
 
+/* container button full */
 .container .container-buttons .full {
   background-color: var(--primary-color);
   color: white;
@@ -155,6 +143,7 @@ header {
   transition: 0.1s;
 }
 
+/* container button empty */
 .container .container-buttons .empty {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -171,4 +160,28 @@ header {
   background-color: var(--primary-color);
   color: white;
   transition: 0.1s;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Stats */
+
+.stats .items-stats {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  list-style-type: none;
+}
+
+.stats .items-stats .item-stats h1 {
+  color: var(--primary-color);
+  font-size: 54px;
+}
+
+.stats .items-stats .item-stats h3 {
+  margin-top: -30px;
 }

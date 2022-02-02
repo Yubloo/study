@@ -6,4 +6,9 @@ The website design [come from Figma](https://www.figma.com/community/file/101255
 > The technologies used are:
 > _soon..._
 
-## Responsive status: `diff - none`
+## Responsive status:
+
+```diff
+
+- none
+```

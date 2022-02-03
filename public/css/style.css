@@ -286,3 +286,69 @@ header {
   color: var(--secondary-text-color);
   font-weight: regular;
 }
+
+/* --------------------------------------------------------------------------- */
+
+/* Video */
+
+/* video */
+.video {
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* video text */
+.video .video-text {
+  padding-top: 34px;
+}
+
+/* video main title */
+.video .video-main-title {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 24px;
+  text-align: left;
+}
+
+/* video sub title */
+.video .video-sub-title {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+  text-align: left;
+}
+
+.video .video-sub-title h3 {
+  font-weight: normal;
+}
+
+/* video img */
+.video .video-img img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+  width: 700px;
+  height: auto;
+}
+
+/* video separate */
+
+.video .video-separate img {
+  position: static;
+  left: 0px;
+  top: 0px;
+}
+
+/* video button */
+.video .video-button a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video .video-button a i {
+  padding-left: 5px;
+}

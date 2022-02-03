@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@800&display=swap");
+
+:root {
+  --primary-color: #96bb7c;
+  --secondary-color: #ddf4ff;
+  --light-background-color: #ffffff;
+  --text-color: #252b42;
+  --secondary-text-color: #737373;
+  --danger-color: #e74040;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* left content */
+.left-content {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0%;
+
+  background: url(../img/schoolathome.jpg);
+  background-size: cover;
+}
+
+/* right content */
+.right-content {
+  margin-left: 1200px;
+  margin-top: 230px;
+}
+
+.right-content h3 {
+  color: var(--text-color);
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: normal;
+}
+
+.right-content h1 {
+  color: var(--text-color);
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: bold;
+}
+
+/* login inputs */
+.login-inputs {
+  height: 100%;
+  padding: 10px;
+}
+
+.login-input input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-text-color);
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+  width: 350px;
+  height: 50px;
+}
+
+.login-checkbox .login-forgot-password {
+  margin-left: 50px;
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.login-button button {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  font-size: 15px;
+  outline: none;
+  width: 350px;
+  background: var(--primary-color);
+  color: var(--light-background-color);
+}
+
+.login-button button:hover {
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  background: var(--light-background-color);
+  color: var(--primary-color);
+}

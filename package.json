@@ -1,0 +1,30 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "📕 The purpose of this website is to enable teenagers to work from home.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yubloo/study.git"
+  },
+  "keywords": [
+    "training",
+    "students",
+    "website",
+    "figma",
+    "bored"
+  ],
+  "author": "Yublo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yubloo/study/issues"
+  },
+  "homepage": "https://github.com/Yubloo/study#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  }
+}

@@ -6,6 +6,8 @@
   --secondary-color: #ddf4ff;
   --light-background-color: #ffffff;
   --text-color: #252b42;
+  --secondary-text-color: #737373;
+  --danger-color: #e74040;
 }
 
 body {
@@ -84,10 +86,13 @@ header {
 
 /* container up title */
 .container .container-up-title {
-  font-weight: bold;
   color: var(--primary-color);
   font-size: 16px;
   text-align: left;
+}
+
+.container .container-up-title p {
+  font-weight: bold;
 }
 
 /* container main title */
@@ -100,10 +105,13 @@ header {
 
 /* container sub title */
 .container .container-sub-title {
-  font-weight: bold;
-  color: var(--text-color);
+  color: var(--secondary-text-color);
   font-size: 20px;
   text-align: left;
+}
+
+.container .container-sub-title h3 {
+  font-weight: normal;
 }
 
 /* container img */
@@ -184,4 +192,97 @@ header {
 
 .stats .items-stats .item-stats h3 {
   margin-top: -30px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Practice */
+
+/* practice */
+.practice {
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* practice practice text */
+.practice .practice-text {
+  padding-top: 160px;
+}
+
+/* practice up title */
+.practice .practice-up-title {
+  color: var(--primary-color);
+  font-size: 16px;
+  text-align: left;
+}
+
+.practice .practice-up-title p {
+  font-weight: bold;
+}
+
+/* practice main title */
+.practice .practice-main-title {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 24px;
+  text-align: left;
+}
+
+/* practice sub title */
+.practice .practice-sub-title {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+  text-align: left;
+}
+
+.practice .practice-sub-title h3 {
+  font-weight: normal;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Cards */
+
+/* cards */
+.practice-cards {
+  margin-top: 80px;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  list-style-type: none;
+  padding-bottom: 200px;
+}
+
+/* card */
+.practice-card {
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 40px;
+}
+
+.practice-card-img img {
+  width: 92px;
+  height: 92px;
+}
+
+.practice-card h1 {
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+.practice-card .separate {
+  background: var(--danger-color);
+  width: 50px;
+  height: 2px;
+}
+
+.practice-card p {
+  color: var(--secondary-text-color);
+  font-weight: regular;
 }
